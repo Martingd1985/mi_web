@@ -263,7 +263,7 @@ p.text-lastworks {
   align-items: flex-start;
   gap: 16px;
   background-color: #F5F5F5;
-  border: #252525 1px solid;
+  border: #252525 2px solid;
   border-radius: 24px;
   transition: 0.3s;
   
