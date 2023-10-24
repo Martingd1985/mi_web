@@ -8,8 +8,9 @@
   "author": "",
   "license": "ISC",
   "keywords": [],
-  "description": "",
   "dependencies": {
     "sass": "^1.69.4"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
