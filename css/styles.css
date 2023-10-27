@@ -587,10 +587,61 @@ i {
   height: 200px;
 }
 
+/*pagina skills*/
+/* Estilos comunes para todos los tamaños de pantalla */
+.hero-skills {
+  display: flex;
+  background-color: #252525;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-img-skill {
+  width: 50%;
+  max-width: 100%;
+}
+
+.hero-text-skill {
+  color: #F5F5F5;
+  padding: 40px;
+  width: 50%;
+  max-width: 100%;
+}
+
+.icons-skills {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0px 50px 0px;
+}
+
+.cta-skills {
+  margin-top: 62px;
+}
+
+.skills-downloads {
+  width: 100%;
+  margin-top: 100px;
+  padding: 16px 24px;
+  justify-content: center;
+  border-radius: 28px;
+  text-decoration: none;
+  background-color: #F5F5F5;
+  color: #252525;
+}
+
+.skills-downloads:hover {
+  background-color: var(--secundary-bg-color);
+  transition: 0.3s;
+}
+
 /* Estilos para dispositivos con una pantalla de ancho máximo de 600px */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 752px) {
   .hero-skills {
     flex-direction: column;
+  }
+  .icons-skills {
+    flex-direction: column;
+    flex-wrap: wrap;
   }
   .hero-img-skill,
   .hero-text-skill {
