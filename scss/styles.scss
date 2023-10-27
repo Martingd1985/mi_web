@@ -121,6 +121,7 @@ main {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
+  margin-top: 30px;
 
 }
 
@@ -131,6 +132,7 @@ main {
   gap: 12px;
   transition: color 3s ease-in-out;
   padding:16px 0;
+  margin-bottom: 20px;
 }
 
 .cta-primary {
@@ -219,6 +221,7 @@ main {
     font-size: 48px;
     font-style: normal;
     text-align: center;
+    margin-top: 100px;
 }
 
 p.text-lastworks {
@@ -326,6 +329,14 @@ p.text-lastworks {
   
 }
 
+.h2-skills{
+  width: 100%;
+  font-size: 48px;
+  font-style: normal;
+  text-align: center;
+  margin-top: 100px;
+}
+
 @media (max-width: 768px) {
   .my-skills {
     padding: 10px; /* Reduzco el padding en dispositivos móviles */
@@ -333,6 +344,7 @@ p.text-lastworks {
   }
 
 }
+
 
 
 
@@ -357,32 +369,30 @@ p.text-lastworks {
 
 
 /*skills section*/
-
-.container-skill {
-  width: 100%;
-  height: auto;
-  background-color: #FFCE4F;
-  background-size: cover;
-  background-position: bottom;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-
 .hero-section {
-  background-color: #FFCE4F;
   background-size: cover;
+  background-color:#FFCE4F;
   background-position: center;
   text-align: left;
   padding: 100px 0;
   margin-top: 100px;
+  height: 590px;
+
+  
+  
 }
 
 .hero-heading {
   font-size: 64px;
   color: #252525;
+  font-weight: 400;
+  line-height: 76px;
+  align-items: center;
 
+}
+
+.hero-skill-img{
+  max-height: 590px;
 }
 
 /* Media query para pantallas más pequeñas (dispositivos móviles) */
@@ -653,4 +663,69 @@ i {
   display: flex;
   width: 100%;
   height: 200px;
+}
+
+
+
+/*pagina skills*/
+
+/* Estilos comunes para todos los tamaños de pantalla */
+.hero-skills {
+  display: flex;
+  background-color: #252525;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-img-skill {
+  width: 50%;
+  max-width: 100%;
+}
+
+.hero-text-skill {
+  color: #F5F5F5;
+  padding: 40px;
+  width: 50%;
+  max-width: 100%;
+}
+
+.icons-skills {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0px 50px 0px;
+
+}
+.cta-skills{
+  margin-top: 62px;
+}
+.skills-downloads {
+  width: 100%;
+  margin-top: 100px;
+  padding: 16px 24px;
+  justify-content: center;
+  border-radius: 28px;
+  text-decoration: none;
+  background-color: #F5F5F5;
+  color: #252525;
+}
+
+.skills-downloads:hover {
+  background-color: var(--secundary-bg-color);
+  transition: 0.3s;
+}
+
+/* Estilos para dispositivos con una pantalla de ancho máximo de 600px */
+@media screen and (max-width: 752px) {
+  .hero-skills {
+    flex-direction: column;
+  }
+.icons-skills{
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+  .hero-img-skill,
+  .hero-text-skill {
+    width: 100%;
+    max-width: 100%;
+  }
 }
