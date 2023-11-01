@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Martín D'Alessandro - Product Designer</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&family=Space+Grotesk:wght@300;500;600;700&display=swap" rel="stylesheet">
-        <!--Bootstrap-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-        <!--Styles-->
-        <link rel="stylesheet" href="../scss/styles.css">
-        <link rel="shortcut icon" href="img/favicon-martindalessandro.svg">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'rel='stylesheet'>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martín D'Alessandro - Product Designer | UX Skills | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&family=Space+Grotesk:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--Styles-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../img/favicon-martindalessandro.svg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'rel='stylesheet'>
+    <!--icons-->
+    <script src="https://kit.fontawesome.com/3244ff17e2.js" crossorigin="anonymous"></script>
+    <!--Seo-->
+    <meta name="description" content="Portfolio of Martín D'Alessandro, a Product Designer with UX skills. View my work, skills, and resume.">
+    <meta name="keywords" content="Product Designer, UX Design, Portfolio, Martín D'Alessandro">
+
+</head>
 <body>
 
  <!--este es el menu-->
@@ -49,25 +55,42 @@
   </div>
 </nav>
   <main>
-    <div class="grid-container">
-        <div class="left-column">
-            <h1>Martin D'Alessandro</h1>
-        </div>
-        <div class="right-column">
-            <div class="container">
-            <div class="row">
-               <div class="col"> <i> </i><p>Teléfono:</p></div>
-            <div class="col"><h4>Correo Electrónico:</h4></div>
-            <div class="col"><h3>Fecha de Nacimiento:</h3></div>
+    <!--Hero contact Expertise-->
+    <div class="hero-contact">
+    <div class="hero-text-contact">
+        <h1 class="text-hero-white">Hire Me as Your Product Designer</h1><br><br>
+            <p class="p-white">My expertise in user-centric design, proficiency in industry-leading design tools, 
+              and experience in turning concepts into captivating, functional designs make me the perfect fit for
+               your team. Let's collaborate to create products that stand out and make a lasting impact.
+          </p>
+      </div>     
+  </div>
+
+</main>
+  
+  <!--form-->
+
+<form id="form">
+  <div class="container">
+    <div class="row row my-5">
+    <div class="col-md-6">
+      <h2 class="contact-me">Contact Me</h2>
+        <p class="text-me">Thank you for taking the time to visit my portfolio and learn more about my skills and experiences as a Product Designer and UX Designer. If you have any inquiries, collaboration proposals, 
+          or simply want to get in touch, please feel free to reach out to me using the information below:</p>
+          <div class="row">
+            <div class="col align-item-center"><i class="fa-solid fa-mobile-screen-button" style="color: #252525"></i><p>+34 675 12 71 34</p></div>
+            <div class="col"></div><i class="fa-solid fa-location-dot"  style="color: #252525"></i><p>Málaga, España.</p></div>
+            <div class="col"></div><i class="fa-regular fa-calendar"  style="color: #252525"></i><p>08/02/1985</p>
           </div>
-            <p>Un breve párrafo de descripción sobre ti.</p>
-            <button class="cta-button">Download</button>
-        </div>
-      </div>
+          <div class="col-md-6">
+            <input class="form-control" type="text" placeholder="Name" aria-label="example">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input class="form-control" type="tel" placeholder="+34" aria-label="example">
+            <textarea class="form-control" name="Send Message" id="send-message" rows="6"></textarea>
+            <button class="cta-primary my-3" type="submit">Send Message</button> 
+          </div> 
     </div>
-  </main>
-</body>
-</html>
+  </div>
 
 
 

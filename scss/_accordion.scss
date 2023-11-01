@@ -1,0 +1,33 @@
+$accordion-btn-bg: #f5f5f5;
+$accordion-active-bg: #FFCE4F;
+$accordion-active-color: #252525;
+
+.accordion {
+    --bs-accordion-btn-bg: #f5f5f5;
+    --bs-accordion-active-bg: #FFCE4F;
+    --bs-accordion-active-color: #252525;
+    --bs-accordion-btn-focus-box-shadow: none;
+    align-items: center;
+    
+}
+
+
+.accordion-button{
+    border-top: 1px solid $color_2;
+}
+
+$h3-font-size: 20px;
+.custom-h3 {
+    font-size: $h3-font-size;
+ }
+
+
+
+
+ @media screen and (max-width: 752px){
+
+    .accordion-structure{
+      margin: 20px;
+  }
+
+}
